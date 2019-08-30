@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    
+}
+
+.container{
+    margin: auto;
+    width: 40%;
+    height: 100px;
+    opacity: 20%;
+    color: #ebebeb;
+    text-align: center;
+    z-index: 99;
+
+}
+.cthulhu{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    position: relative;
+}
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+    left: 25%;
+    margin-top: 0;
+    padding-top: 0;
+    }
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 73%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    }
+.logo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    padding-bottom: 0;
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logo2{
+    font-family: 'Lacquer', sans-serif;
+    font-size: 35px;
+    margin-top: 0;
+}
+.logo3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    padding-top: 0;
+    margin-top: 0;
+
+}
