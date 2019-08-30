@@ -58,3 +58,32 @@ body{
     margin-top: 0;
 
 }
+.main{
+    display:block;
+    width: 50%;
+    margin: auto;
+}
+.underscore{
+    border: solid;
+    border-color: #441342;
+    border-width: 2px;
+    font-size: 4em;
+    padding: 20px;
+
+}
+.rightGuess{
+    border: solid;
+    border-color: #441342;
+    border-width: 2px;
+    font-size: 4em;
+    padding: 20px;
+
+}
+.wrongGuess{
+    border: solid;
+    border-color: #441342;
+    border-width: 2px;
+    font-size: 4em;
+    padding: 20px;
+
+}
